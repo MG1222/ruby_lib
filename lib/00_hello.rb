@@ -1,5 +1,5 @@
 def say_hello (first_name)
-	return "Bonjour #{first_name} !"
+	puts "Bonjour #{first_name} !"
 end
 
 def first_name 
@@ -8,9 +8,4 @@ def first_name
   first_name = gets.chomp
   return "#{first_name}"
 end
-puts say_hello (first_name)
-
-
-
-
-
+ say_hello(first_name)
